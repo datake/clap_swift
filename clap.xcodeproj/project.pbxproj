@@ -13,6 +13,9 @@
 		39673BA81ABF38EF00558F67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39673BA71ABF38EF00558F67 /* Images.xcassets */; };
 		39673BAB1ABF38EF00558F67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39673BA91ABF38EF00558F67 /* LaunchScreen.xib */; };
 		39673BB71ABF38EF00558F67 /* clapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39673BB61ABF38EF00558F67 /* clapTests.swift */; };
+		39673BC11ABF392A00558F67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39673BC01ABF392A00558F67 /* AVFoundation.framework */; };
+		39673BC31ABF3A5B00558F67 /* clap.png in Resources */ = {isa = PBXBuildFile; fileRef = 39673BC21ABF3A5B00558F67 /* clap.png */; };
+		39673BC51ABF3C1500558F67 /* clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 39673BC41ABF3C1500558F67 /* clap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		39673BB01ABF38EF00558F67 /* clapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39673BB51ABF38EF00558F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39673BB61ABF38EF00558F67 /* clapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clapTests.swift; sourceTree = "<group>"; };
+		39673BC01ABF392A00558F67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		39673BC21ABF3A5B00558F67 /* clap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clap.png; path = ../../clap.png; sourceTree = "<group>"; };
+		39673BC41ABF3C1500558F67 /* clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clap.mp3; path = ../../clap.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39673BC11ABF392A00558F67 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		39673B921ABF38EF00558F67 = {
 			isa = PBXGroup;
 			children = (
+				39673BC01ABF392A00558F67 /* AVFoundation.framework */,
 				39673B9D1ABF38EF00558F67 /* clap */,
 				39673BB31ABF38EF00558F67 /* clapTests */,
 				39673B9C1ABF38EF00558F67 /* Products */,
@@ -77,11 +85,13 @@
 		39673B9D1ABF38EF00558F67 /* clap */ = {
 			isa = PBXGroup;
 			children = (
-				39673BA01ABF38EF00558F67 /* AppDelegate.swift */,
 				39673BA21ABF38EF00558F67 /* ViewController.swift */,
+				39673BA01ABF38EF00558F67 /* AppDelegate.swift */,
 				39673BA41ABF38EF00558F67 /* Main.storyboard */,
 				39673BA71ABF38EF00558F67 /* Images.xcassets */,
 				39673BA91ABF38EF00558F67 /* LaunchScreen.xib */,
+				39673BC41ABF3C1500558F67 /* clap.mp3 */,
+				39673BC21ABF3A5B00558F67 /* clap.png */,
 				39673B9E1ABF38EF00558F67 /* Supporting Files */,
 			);
 			path = clap;
@@ -193,8 +203,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39673BA61ABF38EF00558F67 /* Main.storyboard in Resources */,
+				39673BC51ABF3C1500558F67 /* clap.mp3 in Resources */,
 				39673BAB1ABF38EF00558F67 /* LaunchScreen.xib in Resources */,
 				39673BA81ABF38EF00558F67 /* Images.xcassets in Resources */,
+				39673BC31ABF3A5B00558F67 /* clap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
